@@ -341,7 +341,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F407xx</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;..\app;..\hardware\wit_c_sdk;..\ports\stm32f407</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;..\app;..\hardware\wit_c_sdk;..\ports\stm32f407;..\hardware\motor_drivers\tb6612fng</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -545,6 +545,11 @@
               <FileType>1</FileType>
               <FilePath>..\app\jy61p_app.c</FilePath>
             </File>
+            <File>
+              <FileName>motor_control_app.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\app\motor_control_app.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -554,6 +559,11 @@
               <FileName>wit_c_sdk.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\hardware\wit_c_sdk\wit_c_sdk.c</FilePath>
+            </File>
+            <File>
+              <FileName>tb6612fng.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\hardware\motor_drivers\tb6612fng\tb6612fng.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -584,6 +594,16 @@
               <FileName>wit_port.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\ports\stm32f407\wit_port.h</FilePath>
+            </File>
+            <File>
+              <FileName>motor_port.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\ports\stm32f407\motor_port.c</FilePath>
+            </File>
+            <File>
+              <FileName>motor_port.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\ports\stm32f407\motor_port.h</FilePath>
             </File>
           </Files>
         </Group>

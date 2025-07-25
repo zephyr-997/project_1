@@ -26,7 +26,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "jy61p_app.h"
-
+#include "motor_control_app.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
