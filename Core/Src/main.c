@@ -25,6 +25,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "jy61p_app.h"
 
 /* USER CODE END Includes */
 
@@ -103,6 +104,10 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+    HAL_GPIO_WritePin(GPIOF, GPIO_PIN_9, GPIO_PIN_RESET);
+    HAL_Delay(1000);
+    HAL_GPIO_WritePin(GPIOF, GPIO_PIN_9, GPIO_PIN_SET);
+    HAL_Delay(1000);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

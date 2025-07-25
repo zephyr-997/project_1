@@ -341,7 +341,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F407xx</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;..\app;..\hardware\wit_c_sdk;..\ports\stm32f407</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -534,6 +534,56 @@
               <FileName>system_stm32f4xx.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Core/Src/system_stm32f4xx.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>app</GroupName>
+          <Files>
+            <File>
+              <FileName>jy61p_app.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\app\jy61p_app.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>hardware</GroupName>
+          <Files>
+            <File>
+              <FileName>wit_c_sdk.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\hardware\wit_c_sdk\wit_c_sdk.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>ports</GroupName>
+          <Files>
+            <File>
+              <FileName>delay_port.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\ports\stm32f407\delay_port.c</FilePath>
+            </File>
+            <File>
+              <FileName>i2c_port.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\ports\stm32f407\i2c_port.c</FilePath>
+            </File>
+            <File>
+              <FileName>uart_port.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\ports\stm32f407\uart_port.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f407_port_config.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\ports\stm32f407\stm32f407_port_config.h</FilePath>
+            </File>
+            <File>
+              <FileName>wit_port.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\ports\stm32f407\wit_port.h</FilePath>
             </File>
           </Files>
         </Group>

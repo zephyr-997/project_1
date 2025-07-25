@@ -55,8 +55,10 @@ JLinkLog.txt
 *.DS_Store
 Thumbs.db
 
-# Cursor相关文件（可选，取决于是否希望共享Cursor配置）
+# Cursorh相关文件（可选，取决于是否希望共享Cursor配置）
 .cursor/
+# Augment相关文件
+.augment/
 
 # 自定义排除的文件和文件夹（可根据需要调整）
 # 例如，如果不想包含某些特定文档或备份
